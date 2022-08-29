@@ -1,4 +1,4 @@
-html,content {
+html,body {
 	text-align: center;
 	width:100%; 
 	height:100%; 
@@ -14,6 +14,10 @@ html,content {
 	background: linear-gradient(0deg,  #191d1e 50%,#283139 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191d1e', endColorstr='#283139',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-attachment: fixed
+}
+
+body{
+	overflow-y: scroll;
 }
 
 #projector {
